@@ -1,0 +1,118 @@
+/*body*/
+body{
+ background:#7FFFD4;
+ text-align:center;
+}
+
+/*HEADER*/
+
+#header {
+ width:1000px;
+ height:600px;
+ background: #F0F8FF;
+ margin:25px auto;
+ border: solid 2px #A52A2A;
+}
+ h1 {
+ text-align:center;
+ font-family: "Goudy Stout";
+ font:24pt;
+ color:#A52A2A;
+}
+h2 {
+ text-align:center;
+ font-family:"Goudy Stout";
+ font:16px;
+ color:#A52A2A;
+ height:16px;
+}
+header p  {
+ text-align:right;
+ color:#A52A2A;
+}
+header ul {
+ text-align:center;
+ list-style:none;
+ position:absolute;
+ top:150px;
+}
+header ul li {
+ list-style:none;
+ 
+}
+header ul li a{
+ color:#A52A2A;
+ display:b;
+ font-size:1.2em;
+ font-weight:700;
+ height:20px;
+}
+header ul li a: circle {
+  background:#b484da;
+  color:#660000;
+  text-decoration:none;
+
+  
+}
+header ul li a {
+	color:#A52A2A;
+	display:circle;
+	font-size:1.2em;
+	font-weight:700;
+	height:20px;
+	padding:10px;
+	width:190px;
+}
+
+/*Content*/
+
+#content {
+	height:auto;
+	margin:0 auto;
+	width:760px;
+}
+#content:after {
+	clear:both;
+	content:'.';
+	display:block;
+	height:0;
+	visibility:hidden;
+} 
+
+/*Sidebar*/
+
+#sidebar {
+  float:left;
+  width:210px;
+}
+#sidebar h3 {
+  border-bottom:2px solid #7534aa;
+	color:#A52A2A;
+	font-family:"Goudy Stout";
+	font-size:165%;
+	font-weight:400;
+	line-height:30px;
+	padding:0 10px;
+}
+#sidebar input {
+	background:#f1f1f1;
+	color:#555;
+	margin:10px;
+	padding:5px;
+	width:260px;
+}
+#sidebar p {
+	background:#7FFFD4;
+	color:#A52A2A;
+	display:block;
+	font-size:90%;
+	line-height:20px;
+	margin:10px 0;
+	padding:10px;
+	border:solid 2px #A52A2A;
+}
+
+
+
+
+

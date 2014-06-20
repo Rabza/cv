@@ -1,0 +1,27 @@
+/*body*/
+body{
+ background:#7FFFD4;
+ text-align:center;
+ background-image: url(Tertiary Education.png);
+ background-repeat:no-repeat;
+ background-position:center center;
+}
+#main {
+ width:1000px;
+ height:600px;
+ background: #F0F8FF;
+ margin:25px auto;
+ border: solid 2px #A52A2A;
+}
+h1 {
+ text-align:center;
+ font-family: "Goudy Stout";
+ font:24pt;
+ color:#A52A2A;
+}
+h2 {
+ text-align:center;
+ font-family:"Goudy Stout";
+ font:16px;
+ color:#A52A2A;
+}
